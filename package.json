@@ -1,0 +1,15 @@
+{
+  "name": "mono-repo-demo",
+  "private": true,
+  "devDependencies": {
+    "lerna": "^3.22.1"
+  },
+  "scripts": {
+    "clean": "lerna clean",
+    "bootstrap": "lerna bootstrap",
+    "start:aSite": "lerna --scope=@mono-repo-demo/admin-site run start"
+  },
+  "workspaces": [
+    "packages/*"
+  ]
+}
