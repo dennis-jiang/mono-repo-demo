@@ -1,0 +1,17 @@
+{
+  "name": "@mono-repo-demo/common",
+  "version": "0.0.0",
+  "author": "Jiang, Dennis",
+  "homepage": "https://github.com/dennis-jiang/mono-repo-demo#readme",
+  "license": "MIT",
+  "publishConfig": {
+    "registry": "https://registry.yarnpkg.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dennis-jiang/mono-repo-demo.git"
+  },
+  "dependencies": {
+    "antd": "4.9.4"
+  }
+}

@@ -6,8 +6,9 @@
   },
   "scripts": {
     "clean": "lerna clean",
-    "bootstrap": "lerna bootstrap",
-    "start:aSite": "lerna --scope=@mono-repo-demo/admin-site run start"
+    "bootstrap": "lerna bootstrap --hoist",
+    "start:aSite": "lerna --scope @mono-repo-demo/admin-site run start",
+    "start:cSite": "lerna --scope @mono-repo-demo/customer-site run start"
   },
   "workspaces": [
     "packages/*"
