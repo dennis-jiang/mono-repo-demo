@@ -37,7 +37,7 @@ const WaterForm = () => {
       onFinishFailed={onFinishFailed}
       className="form-wrapper"
     >
-      <h2>水费查询</h2>
+      <h2>水费查询表单</h2>
       <Form.Item
         label="姓名"
         name="username"

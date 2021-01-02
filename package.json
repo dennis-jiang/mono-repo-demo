@@ -10,7 +10,8 @@
     "start:aSite": "lerna --scope @mono-repo-demo/admin-site run start",
     "start:cSite": "lerna --scope @mono-repo-demo/customer-site run start",
     "build:aSite": "lerna --scope @mono-repo-demo/admin-site run build",
-    "build:cSite": "lerna --scope @mono-repo-demo/customer-site run build"
+    "build:cSite": "lerna --scope @mono-repo-demo/customer-site run build",
+    "publish": "lerna publish"
   },
   "workspaces": [
     "packages/*"
