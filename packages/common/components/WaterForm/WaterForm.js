@@ -1,16 +1,19 @@
 import { Form, Input, Button } from 'antd';
+import 'antd/dist/antd.css';
+import './WaterForm.css';
+
 const layout = {
   labelCol: {
     span: 8,
   },
   wrapperCol: {
-    span: 16,
+    span: 8,
   },
 };
 const tailLayout = {
   wrapperCol: {
     offset: 8,
-    span: 16,
+    span: 8,
   },
 };
 
@@ -32,7 +35,9 @@ const WaterForm = () => {
       }}
       onFinish={onFinish}
       onFinishFailed={onFinishFailed}
+      className="form-wrapper"
     >
+      <h2>水费查询</h2>
       <Form.Item
         label="姓名"
         name="username"
