@@ -1,8 +1,8 @@
 {
   "name": "@mono-repo-demo/customer-site",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "dependencies": {
-    "@mono-repo-demo/common": "^0.1.0"
+    "@mono-repo-demo/common": "^0.2.0"
   },
   "scripts": {
     "start": "node ../../scripts/start.js",
