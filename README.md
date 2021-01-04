@@ -33,3 +33,5 @@ yarn build:cSite
 * `admin-site`: 管理员站点，引用了上面的公共组件
 * `customer-site`: 客户站点，也引用了上面的公共组件
 
+整个项目的组织思想和过程看这里：[https://juejin.cn/post/6913788953971654663](https://juejin.cn/post/6913788953971654663)
+
